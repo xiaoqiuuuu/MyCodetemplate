@@ -62,8 +62,7 @@ void solve()
             res ++ ;
     }
     
-    if(res == n)cout << "YES\n";
-    else cout << "NO\n";    
+    cout << res << "\n";
     
     
 	return ;
@@ -75,7 +74,7 @@ int main()
 	cin.tie(0);
 	
 	int tt = 1;
-	cin>>tt;
+	//cin>>tt;
 	while(tt--)
 		solve();
 	
